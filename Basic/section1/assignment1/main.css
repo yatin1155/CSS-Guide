@@ -1,0 +1,20 @@
+#assignment-instructions{
+    color:rgb(0, 255, 157);
+    font-family: sans-serif;
+}
+
+code{
+    color: red;
+}
+code.green{
+    color: green;
+}
+
+li:not(:first-child){
+    background: black;
+    color: white;
+}
+
+ol li {
+    background: blue;
+}
