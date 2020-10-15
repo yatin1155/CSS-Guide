@@ -75,6 +75,12 @@
 .plan div button:focus{
     outline: none;
 }
+
+.plans-lists{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 /* h1 {
     font-family: sans-serif;
 } */
