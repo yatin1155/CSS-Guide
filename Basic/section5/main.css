@@ -16,6 +16,7 @@ body {
 
 .section-title {
     color: #2ddf5c;
+    text-align: center;
 }
 
 #product-overview h1 {
@@ -23,6 +24,64 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+.plan{
+    background-color: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    font-size: 15px;
+    box-shadow: 1px 1px 7px 0px black;
+}
+
+.plan h2{
+    color: grey;
+}
+
+.plan ul{
+    padding: 0;
+    list-style: none;
+ }
+
+
+
+.plan.active{
+    background: #099f09;
+    color: #ffffff;
+}
+.plan.active h2{
+    color: #220904;
+}
+
+.plan.active h1:first-child{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 7px;
+    color: #099f09;
+    background: #ffffff;
+    box-shadow: 1px 1px 6px 1px rgb(0 0 0);
+}
+
+.plan div button{
+    background: #220904;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1.5px solid #220904;
+    font: inherit;
+    cursor: pointer;
+}
+
+.plan div button:hover,.plan div button:active{
+    background: #ffffff;
+    color: #220904;
+}
+.plan div button:focus{
+    outline: none;
+}
 /* h1 {
     font-family: sans-serif;
 } */
@@ -88,4 +147,36 @@ body {
     color: #ff1b68;
     background: white;
     border: none;
+}
+
+
+/* ......................... */
+
+#info{
+    background: #ff1b68;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#info .info-lists{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+#info .info-lists .info-item{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+#info .info-lists .info-item div{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background: #f9bfbf;
 }
